@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DripsComponent } from './drips/drips.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DripsComponent
   ],
   imports: [
     BrowserModule
